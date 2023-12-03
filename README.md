@@ -33,16 +33,9 @@
   <h3 align="center">Team Pere Pere</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    
+The university is positioned at the forefront of the initiative, charged with leveraging advanced analytics and machine learning to uncover patterns within the rich dataset. A fundamental requirement entails ensuring that the insights and recommendations developed by participants remain accessible to the broader public. The university's role extends beyond providing technical solutions; it involves bridging the gap, rendering valuable insights easily comprehensible and usable for the general public. This contribution plays a significant role in the democratization of education data and aligns with the principles of SDG 4. Consequently, the government anticipates the delivery of a prototype showcasing various insights and the application of predictive models.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -97,33 +90,50 @@ At the forefront of this transformative initiative is Team Pere Pere, tasked wit
 ## Dataset
 Dataset Information:
 The data were obtained in a survey of students math and portuguese language courses in secondary school. It contains a lot of interesting social, gender and study information about students.
-school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
-sex - student's sex (binary: 'F' - female or 'M' - male)
-age - student's age (numeric: from 15 to 22)
-address - student's home address type (binary: 'U' - urban or 'R' - rural)
-famsize - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
-Pstatus - parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
-Medu - mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
-Fedu - father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
-Mjob - mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
-Fjob - father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
-reason - reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')
-guardian - student's guardian (nominal: 'mother', 'father' or 'other')
-traveltime - home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
-studytime - weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
-failures - number of past class failures (numeric: n if 1<=n<3, else 4)
-schoolsup - extra educational support (binary: yes or no)
-famsup - family educational support (binary: yes or no)
-paid - extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)
-activities - extra-curricular activities (binary: yes or no)
-nursery - attended nursery school (binary: yes or no)
-higher - wants to take higher education (binary: yes or no)
-internet - Internet access at home (binary: yes or no)
-romantic - with a romantic relationship (binary: yes or no)
-famrel - quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
-freetime - free time after school (numeric: from 1 - very low to 5 - very high)
-goout - going out with friends (numeric: from 1 - very low to 5 - very high)
-Dalc - workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
+| Feature       | Description                                           |
+|---------------|-------------------------------------------------------|
+| school        | Student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira) |
+| sex           | Student's sex (binary: 'F' - female or 'M' - male)    |
+| age           | Student's age (numeric: from 15 to 22)                |
+| address       | Student's home address type (binary: 'U' - urban or 'R' - rural) |
+| famsize       | Family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3) |
+| Pstatus       | Parent's cohabitation status (binary: 'T' - living together or 'A' - apart) |
+| Medu          | Mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education) |
+| Fedu          | Father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education) |
+| Mjob          | Mother's job (nominal: 'teacher', 'health' care related, civil 'services', 'at_home' or 'other') |
+| Fjob          | Father's job (nominal: 'teacher', 'health' care related, civil 'services', 'at_home' or 'other') |
+| reason        | Reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other') |
+| guardian      | Student's guardian (nominal: 'mother', 'father' or 'other') |
+| traveltime    | Home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour) |
+| studytime     | Weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours) |
+| failures      | Number of past class failures (numeric: n if 1<=n<3, else 4) |
+| schoolsup     | Extra educational support (binary: yes or no)         |
+| famsup        | Family educational support (binary: yes or no)        |
+| paid          | Extra paid classes within the course subject (Math or Portuguese) (binary: yes or no) |
+| activities    | Extra-curricular activities (binary: yes or no)       |
+| nursery       | Attended nursery school (binary: yes or no)           |
+| higher        | Wants to take higher education (binary: yes or no)    |
+| internet      | Internet access at home (binary: yes or no)           |
+| romantic      | With a romantic relationship (binary: yes or no)      |
+| famrel        | Quality of family relationships (numeric: from 1 - very bad to 5 - excellent) |
+| freetime      | Free time after school (numeric: from 1 - very low to 5 - very high) |
+| goout         | Going out with friends (numeric: from 1 - very low to 5 - very high) |
+| Dalc          | Workday alcohol consumption (numeric: from 1 - very low to 5 - very high) |
+| Walc          | Weekend alcohol consumption (numeric: from 1 - very low to 5 - very high) |
+| health        | Current health status (numeric: from 1 - very bad to 5 - very good) |
+| absences      | Number of school absences (numeric: from 0 to 93)     |
+
+
+
+
+| Grade | Description                                           |
+|-------|-------------------------------------------------------|
+| G1    | First period grade (numeric: from 0 to 20)            |
+| G2    | Second period grade (numeric: from 0 to 20)           |
+| G3    | Final grade (numeric: from 0 to 20, output target)    |
+
+
+
 
 |                        |                          |
 |------------------------|--------------------------|
@@ -147,17 +157,18 @@ Here are some Analysis we found
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Models
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Here are some Modelling we performed
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<object data="https://github.com/FathimathSusnaAli/Hackthon_2k23/blob/411a1fd4e3f981225cf64a49826c54f450b8a6e3/Our%20Approach.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/FathimathSusnaAli/Hackthon_2k23/blob/411a1fd4e3f981225cf64a49826c54f450b8a6e3/Our%20Approach.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
+<!-- Results -->
 ## Roadmap
 
 - [x] Add Changelog
