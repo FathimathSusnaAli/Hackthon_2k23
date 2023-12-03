@@ -59,7 +59,7 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#dataset">About the Dataset</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
@@ -94,38 +94,55 @@ At the forefront of this transformative initiative is Team Pere Pere, tasked wit
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Dataset
+Dataset Information:
+The data were obtained in a survey of students math and portuguese language courses in secondary school. It contains a lot of interesting social, gender and study information about students.
+school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
+sex - student's sex (binary: 'F' - female or 'M' - male)
+age - student's age (numeric: from 15 to 22)
+address - student's home address type (binary: 'U' - urban or 'R' - rural)
+famsize - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
+Pstatus - parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
+Medu - mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
+Fedu - father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
+Mjob - mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
+Fjob - father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
+reason - reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')
+guardian - student's guardian (nominal: 'mother', 'father' or 'other')
+traveltime - home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
+studytime - weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
+failures - number of past class failures (numeric: n if 1<=n<3, else 4)
+schoolsup - extra educational support (binary: yes or no)
+famsup - family educational support (binary: yes or no)
+paid - extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)
+activities - extra-curricular activities (binary: yes or no)
+nursery - attended nursery school (binary: yes or no)
+higher - wants to take higher education (binary: yes or no)
+internet - Internet access at home (binary: yes or no)
+romantic - with a romantic relationship (binary: yes or no)
+famrel - quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
+freetime - free time after school (numeric: from 1 - very low to 5 - very high)
+goout - going out with friends (numeric: from 1 - very low to 5 - very high)
+Dalc - workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+|                        |                          |
+|------------------------|--------------------------|
+| Total Number of Rows   | 395                      |
+| Rows                   | 395                      |
+| Duplicates             | None                     |
+| Features               | 33                       |
+| Categorical           | 29                       |
+| Numerical              | 4                        |
 
-### Prerequisites
+### EDA
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Here are some Analysis we found
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<object data="https://github.com/FathimathSusnaAli/Hackthon_2k23/blob/7c4f4fc102a4b968b9f90a2b71495eecc8706184/Analysis%26EDA%20(1).pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/FathimathSusnaAli/Hackthon_2k23/blob/7c4f4fc102a4b968b9f90a2b71495eecc8706184/Analysis%26EDA%20(1).pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 
 
